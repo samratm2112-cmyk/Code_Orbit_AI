@@ -140,26 +140,8 @@ CodeOrbit AI is an intelligent assistant that:
 3. Click "Generate"
 4. Preview and download
 
-
-## 📊 API Documentation
-
-Full API documentation available at:
-- **Interactive Docs:** http://localhost:8000/docs
-- **ReDoc:** http://localhost:8000/redoc
-- **Markdown:** [docs/API.md](docs/API.md)
-
-**Issue:** OpenAI API rate limit exceeded  
-**Solution:** Reduce `MAX_EMBEDDINGS_PER_BATCH` in `.env`
-
-**Issue:** Repository too large  
-**Solution:** Increase `MAX_REPO_SIZE_MB` or analyze specific directories
-
-**Issue:** FAISS index not found  
-**Solution:** Delete `data/vector_stores` and re-analyze repository
-
-**Issue:** Streamlit connection error  
-**Solution:** Ensure backend is running on port 8000
-
+## Live Demo 
+https://codeorbitai-3pgmpb6zbiflsd5zusvblg.streamlit.app/
 ---
 
 ## 📝 License
@@ -168,21 +150,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 👥 Team
-
-Built with ❤️ by Team CodeOrbit for IBM Bob × lablab.ai Hackathon
-
-- **Developer 1** - Backend & AI
-- **Developer 2** - Frontend & UX
-- **Developer 3** - Integration & Testing
-
----
-
 ## 🙏 Acknowledgments
 
 - **IBM Bob** - For the amazing AI capabilities
 - **lablab.ai** - For organizing the hackathon
-- **OpenAI** - For GPT-4 and embeddings
+- **GroqAI** - For GPT-4 and embeddings
 - **FastAPI** - For the excellent framework
 - **Streamlit** - For rapid UI development
 - **LangChain** - For LLM orchestration
@@ -191,10 +163,9 @@ Built with ❤️ by Team CodeOrbit for IBM Bob × lablab.ai Hackathon
 
 ## 📧 Contact
 
-- **GitHub Issues:** [Report a bug](https://github.com/yourusername/CodeOrbit_AI/issues)
-- **Email:** team@codeorbit.ai
-- **Twitter:** [@CodeOrbitAI](https://twitter.com/CodeOrbitAI)
-
+- **GitHub Issues:** [Report a bug](https://github.com/samratm2112-cmyk/CodeOrbit_AI/issues)
+- **Email:** samratm2105@gmail.com
+- 
 ---
 
 ## ⭐ Star Us!
@@ -205,10 +176,5 @@ It helps us reach more developers and improve the project.
 
 ---
 
-<div align="center">
-
 **Made with 🚀 for developers, by developers**
 
-[Website](https://codeorbit.ai) • [Documentation](docs/) • [API](docs/API.md) • [Demo](https://demo.codeorbit.ai)
-
-</div>
