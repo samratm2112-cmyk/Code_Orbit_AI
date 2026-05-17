@@ -19,7 +19,7 @@ class APIClient:
     - Loading state management
     """
     
-    def __init__(self, base_url: str = "http://localhost:8000"):
+    def __init__(self, base_url: str = "https://code-orbit-ai.onrender.com"):
         """
         Initialize API client
         
