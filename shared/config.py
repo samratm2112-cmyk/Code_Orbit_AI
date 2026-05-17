@@ -27,7 +27,7 @@ class Settings(BaseSettings):
     
     # Groq (Required for AI chat features)
     groq_api_key: Optional[str] = None
-    groq_model: str = "llama3-70b-8192"
+    groq_model: str = "llama-3.3-70b-versatile"
     
     # GitHub (Optional)
     github_token: str = ""
