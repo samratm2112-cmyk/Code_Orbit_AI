@@ -142,9 +142,7 @@ CodeOrbit AI is an intelligent assistant that:
 
 ## Live Demo 
 
-Backend - https://code-orbit-ai.onrender.com/
-
-Frontend - https://codeorbitai-3pgmpb6zbiflsd5zusvblg.streamlit.app/
+https://codeorbitai-3pgmpb6zbiflsd5zusvblg.streamlit.app/
 
 ---
 
